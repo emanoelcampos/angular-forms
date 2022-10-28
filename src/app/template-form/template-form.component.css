@@ -1,39 +1,3 @@
 /* .ng-invalid.ng-touched:not(form) {
   border: 1px solid red;
 } */
-
-/* <form #f="ngForm" (ngSubmit)="onSubmit(f)">
-  <div class="form-group" [class.was-validated]="!nome.valid && nome.touched">
-    <label for="nome">Nome</label>
-    <input
-      type="text"
-      class="form-control"
-      id="nome"
-      name="nome"
-      placeholder="Digite seu nome"
-      [ngModel]="usuario.nome"
-      required
-      #nome="ngModel">
-      <!-- <div>
-        {{ nome.className }}
-      </div> -->
-      <div *ngIf="!nome.valid && nome.touched" class="invalid-feedback" >
-        Nome é obrigatório.
-      </div>
-  </div>
-
-  <div class="form-group">
-    <label for="email">Email</label>
-    <input
-      type="text"
-      class="form-control"
-      id="email"
-      name="email"
-      placeholder="Digite seu email"
-      [ngModel]="usuario.email"
-      required email>
-      <!-- pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"-->
-  </div>
-
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form> */
