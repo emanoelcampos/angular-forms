@@ -1,5 +1,5 @@
 <form #f="ngForm" (ngSubmit)="onSubmit(f)">
-  <div class="form-group">
+  <div class="form-group" [class.was-validated]="!nome.valid && nome.touched">
     <label for="nome">Nome</label>
     <input
       type="text"
@@ -9,22 +9,29 @@
       placeholder="Digite seu nome"
       [ngModel]="usuario.nome"
       required
-      #nome>
+      #nome="ngModel">
       <!-- <div>
         {{ nome.className }}
       </div> -->
+      <div *ngIf="!nome.valid && nome.touched" class="invalid-feedback" >
+        Nome é obrigatório.
+      </div>
   </div>
 
-  <div class="form-group">
+  <div class="form-group" [class.was-validated]="!email.valid && email.touched">
     <label for="email">Email</label>
     <input
-      type="text"
+      type="email"
       class="form-control"
       id="email"
       name="email"
       placeholder="Digite seu email"
       [ngModel]="usuario.email"
-      required email>
+      required email
+      #email="ngModel">
+      <div *ngIf="!email.valid && email.touched" class="invalid-feedback" >
+        Email inválido.
+      </div>
       <!-- pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"-->
   </div>
 
