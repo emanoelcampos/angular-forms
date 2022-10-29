@@ -1,27 +1,22 @@
-# Forms
+# Angular - Formulários (Template Driven)
+ 
+## Projeto com aulas sobre formulários(template driven) do curso de Angular da Loiane Groner
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+O repositório possui estudo dos temas:
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Formulários (template vs data / reativo) Introdução
+- Formulários – Criando o projeto inicial com Bootstrap 3
+- Forms (template driven) Controles ngForm, ngSubmit e ngModel
+- Forms (template driven) Inicializando valores com ngModel (two-way data-binding)
+- Forms (template driven) Módulos e FormsModule
+- Forms (template driven) Aplicando validação nos campos
+- Forms (template driven) Aplicando CSS na validação dos campos
+- Forms (template driven) Mostrando mensagens de erro de validação
+- Forms (template driven) Desabilitando o botão de submit para formulário inválido
+- Forms (Dica): Verificando dados do Form no template com JSON
+- Forms (template driven) Adicionando campos de endereço (form layout Bootstrap 3)
+- Forms (template driven) Refatorando (simplificando) CSS e mensagens de erro
+- Forms (template driven) Form groups (agrupando dados)
+- Forms (template driven) Pesquisando endereço automaticamente com CEP
+- Forms (template driven) Populando campos com setValue e patchValue (autocomplete CEP)
+- Forms (template driven) Submetendo valores com HTTP POST
