@@ -53,7 +53,7 @@
             ngModel
             required
             #cep="ngModel"
-            (blur)="consultaCEP(cep.value)">
+            (blur)="consultaCEP(cep.value, f)">
           <div *ngIf="!cep.valid && cep.touched" class="invalid-feedback">
             CEP é obrigatório.
           </div>
