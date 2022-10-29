@@ -1,6 +1,6 @@
 # Angular - Formulários (Template Driven)
  
- ## Projeto com aulas sobre formulários (template driven-) do curso de Angular da Loiane Groner
+## Projeto com aulas sobre formulários(template driven) do curso de Angular da Loiane Groner
 
 O repositório possui estudo dos temas:
 
